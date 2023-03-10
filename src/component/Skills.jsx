@@ -2,7 +2,12 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <section className="skills" id="skills">
+    <section
+      className="skills"
+      id="skills"
+      data-aos="fade-up"
+      data-aos-duration="4000"
+    >
       <div className="header-text">
         <h2 className="section-title">Skills</h2>
         <p className="section-subtitle">My Technical level</p>

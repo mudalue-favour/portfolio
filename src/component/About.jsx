@@ -1,17 +1,27 @@
 import React from 'react'
-import profile from './Assets/profile-img.jpg'
+import profile from './Assets/profile.jpg'
 import CV from './Assets/CV.pdf'
 
 const About = () => {
   return (
-    <section className=" about" id="about">
+    <section
+      className=" about"
+      id="about"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <h2 className="section-title">About Me</h2>
       <p className="section-subtitle">My Introduction</p>
 
       <div className="container about-main">
         <div className="row about-row">
           <div className="col-sm-6 about-img">
-            <img src={profile} alt="" srcset="" className="about-img" />
+            <img
+              src={profile}
+              alt=""
+              srcset=""
+              className="about-img fade-in-image"
+            />
           </div>
           <div className="col-sm-6 about-data">
             <div className="row about-icons">
@@ -35,9 +45,9 @@ const About = () => {
             </div>
             <div className="about-info">
               <p className="about-desc">
-                Frontend developer, i create web pages and apps. i have
-                littleexperience and make sure my clients are always satisfied
-                and happy
+                Frontend developer, i create web pages and apps. i have little
+                experience and make sure my clients are always satisfied and
+                happy
               </p>
 
               <a download="" href={CV} className="cv-button button">

@@ -1,13 +1,18 @@
 import React from 'react'
 import Social from './Social'
 import Data from './Data'
-import profile from './Assets/profile-img.jpg'
+import profile from './Assets/profile.jpg'
 import Header from './header'
 import Scrolldown from './Scrolldown'
 
 const Home = () => {
   return (
-    <section className="home" id="home">
+    <section
+      className="home"
+      id="home"
+      data-aos="fade-up"
+      data-aos-duration="4000"
+    >
       <Header />
       <div className="container">
         <div className="row ">

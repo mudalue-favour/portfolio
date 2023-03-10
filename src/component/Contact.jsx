@@ -2,7 +2,12 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className="contact-section " id="contact">
+    <section
+      className="contact-section "
+      id="contact"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div className="header-text">
         <h2 className="section-title">Get in Touch</h2>
         <p className="section-subtitle">Contact Me</p>

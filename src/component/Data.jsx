@@ -3,7 +3,7 @@ import React from 'react'
 const Data = () => {
   return (
     <div className="home-data">
-      <h1 className="home-title">
+      <h1 className="home-title rainbow-text">
         Mudalue Favour
         <svg
           width="36"
@@ -55,7 +55,7 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home-subtitle"> frontend Developer</h3>
+      <h3 className="home-subtitle rainbow-text"> Frontend Developer</h3>
       <p className="description">
         {' '}
         i'm a creative designer based in Lagos state, and i'm very passionate
